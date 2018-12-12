@@ -17,5 +17,5 @@ after_success:
 - cd ..; bash ./deploy.sh
 env:
   global:
-  - GH_USER: whaledr
-  - GH_REPO: beringstrait
+  - GH_USER: pshivraj
+  - GH_REPO: megaptera
