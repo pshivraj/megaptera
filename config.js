@@ -15,7 +15,7 @@ export default {
     bucket: 'himatdata',
     prefix: 'whaledr_renamed',
     delimiter: '.wav',
-    max_keys: 10000,
+    max_keys: 150000,
   },
   "betaMode": false,
   "firebaseKeys": {
