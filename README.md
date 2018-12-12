@@ -1,1 +1,1 @@
-[View live](https://whaledr.github.io/beringstrait/)
+[View live](https://pshivraj.github.io/megaptera/)
