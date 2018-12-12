@@ -13,18 +13,18 @@ export default {
   manifestType: 'S3',
   manifestS3: {
     bucket: 'himatdata',
-    prefix: 'BeringStrait',
+    prefix: 'whaledr_renamed',
     delimiter: '.wav',
     max_keys: 10000,
   },
   "betaMode": false,
   "firebaseKeys": {
-    "apiKey": "AIzaSyDmfW_1OZekAGqgQMGpaxkHyamQKCms2cg",
-    "authDomain": "beringstrait-4b1f0.firebaseapp.com",
-    "databaseURL": "https://beringstrait-4b1f0.firebaseio.com",
-    "projectId": "beringstrait-4b1f0",
-    "storageBucket": "beringstrait-4b1f0.appspot.com",
-    "messagingSenderId": "343092931202"
+    apiKey: "AIzaSyD9CXyTSArnaseKwZw_aOr9BDnaRxRtaRc",
+    authDomain: "megaptera-13ae9.firebaseapp.com",
+    databaseURL: "https://megaptera-13ae9.firebaseio.com",
+    projectId: "megaptera-13ae9",
+    storageBucket: "megaptera-13ae9.appspot.com",
+    messagingSenderId: "1007381802839"
   },
   "app": {
     "navbarVariant": "info"
@@ -92,7 +92,7 @@ export default {
     }
   },
   "home": {
-    "title": "Arctic Whaledr",
+    "title": "megaptera",
     "tagline": "Help us find whale sounds",
     "backgroundUrl": "https://raw.githubusercontent.com/SwipesForScience/testConfig/master/images/SwipesForScience.svg?sanitize=true"
   },
