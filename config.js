@@ -1,19 +1,19 @@
 export default {
   /* eslint-disable */
   "needsTutorial": true,
-  "manifestUrl": "https://s3-us-west-2.amazonaws.com/himatdata/whaledr_renamed/whalemanifest.json",
+  "manifestUrl": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/whalemanifest.json",
   "widgetType": "ImageSoundSwipe",
   "widgetProperties": {
-    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/himatdata/whaledr_renamed/{0}.jpg",
+    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.jpg",
     "delimiter": "____",
     "leftSwipeLabel": "Fail",
     "rightSwipeLabel": "Whale",
-    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/himatdata/whaledr_renamed/{0}.wav"
+    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.wav"
   },
   manifestType: 'S3',
   manifestS3: {
-    bucket: 'himatdata',
-    prefix: 'whaledr_renamed',
+    bucket: 'whaledr',
+    prefix: 'megaptera',
     delimiter: '.wav',
     max_keys: 150000,
   },
