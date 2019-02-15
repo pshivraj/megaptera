@@ -4,19 +4,19 @@ export default {
   "manifestUrl": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/whalemanifest.json",
   "widgetType": "ImageSoundSwipe",
   "widgetProperties": {
-    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.jpg",
+    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.jpg",
     "delimiter": "____",
     "leftSwipeLabel": "Fail",
     "rightSwipeLabel": "Whale",
-    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.wav"
+    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.wav"
   },
-  manifestType: 'S3',
-  manifestS3: {
-    bucket: 'whaledr',
-    prefix: 'megaptera',
-    delimiter: '.wav',
-    max_keys: 150000,
-  },
+//   manifestType: 'S3',
+//   manifestS3: {
+//     bucket: 'whaledr',
+//     prefix: 'megaptera',
+//     delimiter: '.wav',
+//     max_keys: 150000,
+//   },
   "betaMode": false,
   "firebaseKeys": {
     apiKey: "AIzaSyD9CXyTSArnaseKwZw_aOr9BDnaRxRtaRc",
