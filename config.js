@@ -4,11 +4,11 @@ export default {
   "manifestUrl": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/whalemanifest.json",
   "widgetType": "ImageSoundSwipe",
   "widgetProperties": {
-    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.jpg",
+    "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.jpg",
     "delimiter": "____",
     "leftSwipeLabel": "Fail",
     "rightSwipeLabel": "Whale",
-    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.wav"
+    "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}.wav"
   },
   manifestType: 'S3',
   manifestS3: {
