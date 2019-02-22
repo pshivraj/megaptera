@@ -5,7 +5,7 @@ export default {
   "widgetType": "ImageSoundSwipe",
   "widgetProperties": {
     "baseUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.jpg",
-    "delimiter": "____",
+    "delimiter": "___",
     "leftSwipeLabel": "Fail",
     "rightSwipeLabel": "Whale",
     "soundUrlTemplate": "https://s3-us-west-2.amazonaws.com/whaledr/megaptera/{0}/{1}/{2}.wav"
